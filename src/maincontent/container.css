@@ -1,0 +1,53 @@
+.restaurantCard{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 15px; 
+   padding-bottom: 5px;  
+}
+.allRestaurants{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ratingandarea{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+img#images {
+    width: fit-content;
+    height: 250px;
+}
+.restaurantCard:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.6);
+}
+.Cuisines{
+    font-size: small;
+}
+.city{
+    padding-right: 4px;
+    margin-right: 5px;
+    text-align: right;
+    color:orange ;
+}
+.rating{
+    padding-left:3px ;
+    padding-right: 3px;
+    text-align: left;
+    background-color: green;
+    width: 25px;
+    border-radius: 6px;
+}  
+.search{
+    display: flex;
+    align-items: center;
+    
+}

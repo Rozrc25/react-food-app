@@ -1,0 +1,19 @@
+.shimmerCard {
+  display: flex;
+  width: 300px;
+  height: 250px;
+  background: #999999;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.shimmer {
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: #c4c8cd;
+  background-image: linear-gradient(to right, #abaeb2 0%, #afb1b8 20%, #838587 40%, #c8cdd2 100%);
+ 
+}
