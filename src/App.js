@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className='FoodContainer'>
+        <span>THis is from Git</span>
       <Container/>
       </div>
       <Footer/>
