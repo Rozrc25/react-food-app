@@ -1,5 +1,5 @@
 .restaurantCard{
-    width: fit-content;
+    width: 450px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -22,7 +22,7 @@
 }
 
 img#images {
-    width: fit-content;
+    width: 450px;
     height: 250px;
 }
 .restaurantCard:hover{
@@ -49,5 +49,11 @@ img#images {
 .search{
     display: flex;
     align-items: center;
-    
+}
+input {
+    margin-top: 18px;
+    height: 30px;
+    background-color: rgb(237, 189, 153);
+    border: none;
+    width: 200px;
 }
