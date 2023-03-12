@@ -1,0 +1,29 @@
+/* .restaurantSection{
+    margin-left:10px;
+    margin-right:10px;
+} */
+.restaurantMenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+img{
+    width: 450px;
+}
+.items{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 10px; 
+    margin-right: 10px;
+   padding-bottom: 5px;  
+}
+.items:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 7px 0 rgba(161, 59, 8, 0.9);
+    color: orange;
+}
