@@ -3,7 +3,8 @@ export const IMG_CDN_URL = "https://res.cloudinary.com/swiggy/image/upload/fl_lo
 
 export const RESTAURANT_URL = 'https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9257861&lng=80.1178836&page_type=DESKTOP_WEB_LISTING'
 
-export const MENU_URL = "https://www.swiggy.com/dapi/menu/v4/full?lat=12.9276314&lng=80.1083098&menuId="
+export const MENU_URL = "https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=13.0826802&lng=80.2707184&restaurantId="
+
 
 // export const pre_search_url='https://www.swiggy.com/mapi/landing/PRE_SEARCH?lat=13.0826802&lng=80.2707184'
 

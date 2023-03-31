@@ -23,6 +23,7 @@ const Navbar = () => {
               <Link> <li>Contact</li></Link>
               <Link to='/Help'><li>Help</li></Link>
               <Link to='signin'><li>Sign up/Login</li></Link>
+              <Link to="cart"><li>Cart</li></Link>
             </ul>
           </div>
         </div>
@@ -39,6 +40,7 @@ const Navbar = () => {
               <Link to='/About'> <li>About</li></Link>
               <Link> <li>Contact</li></Link>
               <Link to='/Help'><li>Help</li></Link>
+              <Link to='/cart'><li>cart</li></Link>
             </ul>
           </div>
         </nav>

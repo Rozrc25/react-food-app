@@ -1,5 +1,5 @@
 .restaurantCard{
-    width: 450px;
+    width: 350px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -22,7 +22,7 @@
 }
 
 img#images {
-    width: 450px;
+    width: 350px;
     height: 250px;
 }
 .restaurantCard:hover{

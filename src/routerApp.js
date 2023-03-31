@@ -6,6 +6,7 @@ import App from "./App";
 import Signin from "./maincontent/signin";
 import Restaurant from "./maincontent/restaurant";
 import ErrorComponent from "./errorPage";
+import Cart from "./cart/cart";
 
 export const appRouter = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ export const appRouter = createBrowserRouter([
           {
             path:"/restaurant/:id",
             element:<Restaurant/>
+          },
+          {
+            path:"/cart",
+            element:<Cart/>
           }
       ],
     },

@@ -2,28 +2,79 @@
     margin-left:10px;
     margin-right:10px;
 } */
-.restaurantMenu{
+.mainBox{
+    font-size: large;
     display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    gap: 20px;
+    width: 1000px;
+    align-items: center;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 5px;
+}
+
+.mainBox:hover{
+    box-shadow: 0 4px 7px 0 rgba(161, 59, 8, 0.9);
+    color: orange;
+    border-radius: 5px;
+}
+.viewBtn{
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.restaurantMenu{
+
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
 }
 img{
-    width: 450px;
+    width: 250px;
+    height: 150px;
 }
 .items{
-    width: 450px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    margin-left: 10px; 
-    margin-right: 10px;
-   padding-bottom: 5px;  
+    justify-content: space-between;
+    gap: 20px;
+    width: 1000px;
+    align-items: center;
+    
 }
 .items:hover{
     cursor: pointer;
     box-shadow: 0 4px 7px 0 rgba(161, 59, 8, 0.9);
     color: orange;
+    border-radius: 5px;
+}
+.discription{
+    color: rgba(0, 0, 0, 0.45);
+    width: fit-content;
+    letter-spacing: -.3px;
+    font-size: 1rem;
+}
+.DishName{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.categrory{
+    font-weight: bold;
+    color: rgb(244, 162, 9);
+}
+.catlog{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.addbtn{
+    margin-right:5px;
+    width: 60px;
+    height: 30px;
+    border:1px orange solid;
+    background-color: rgb(251, 220, 170);
+}
+.addbtn:hover{
+    background-color: rgba(239, 152, 12, 0.809);
 }
