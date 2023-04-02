@@ -5,7 +5,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 15px;
-    margin-left: 15px; 
+    margin-left: 15px;
+    margin-right: 15px; 
    padding-bottom: 5px;  
 }
 .allRestaurants{
