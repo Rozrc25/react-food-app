@@ -7,6 +7,7 @@
     display: flex;
     cursor: pointer;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
     width: 1000px;
     align-items: center;
@@ -35,13 +36,19 @@ img{
     width: 250px;
     height: 150px;
 }
+.menufoodimg{
+    width: 240px;
+    height: 140px;
+    margin-right: 5px;
+}
 .items{
     display: flex;
     justify-content: space-between;
     gap: 20px;
     width: 1000px;
     align-items: center;
-    
+    margin-top: 5px;
+    height:150PX;
 }
 .items:hover{
     cursor: pointer;
@@ -77,4 +84,13 @@ img{
 }
 .addbtn:hover{
     background-color: rgba(239, 152, 12, 0.809);
+}
+
+.menuTitle{
+    background-color: rgba(242, 181, 68, 0.811);
+}
+.priceCol{
+    display: flex;
+    text-align:end;
+    /* margin-left: 240px; */
 }

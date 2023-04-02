@@ -2,7 +2,7 @@
 import Shimmer from '../shimmer/shimmer';
 import './container.css';
 import { useState, useEffect } from "react";
-import { restaurants, IMG_CDN_URL, RESTAURANT_URL } from './constants';
+import { restaurants, IMG_CDN_URL, RESTAURANT_URL ,otherRestaurentURL} from './constants';
 import { FaSearch } from "react-icons/fa";
 import { HiStar } from "react-icons/hi";
 import { Link } from 'react-router-dom';
@@ -21,7 +21,7 @@ const Container = () => {
   const getRestaurants = async () => {
     const data = await fetch(RESTAURANT_URL)
     const jsonData = await data.json();
-    setRestaurant(jsonData?.data?.cards[2]?.data?.data?.cards);
+    setRestaurant([jsonData?.data?.cards[2]?.data?.data?.cards]);
     setFilteredRestaturant(jsonData?.data?.cards[2]?.data?.data?.cards);
   }
 
@@ -41,7 +41,7 @@ const Container = () => {
         <div className='details'>
           <div className="name">{name}</div>
           <div className="Cuisines">{cuisines.join('')}</div>
-          <div class="ratingandarea"><div class="details"><span className="rating">{avgRating}</span></div><div><HiStar/></div><div className="city">{area}</div></div>
+          <div className="ratingandarea"><div class="details"><span className="rating">{avgRating}</span></div><div><HiStar/></div><div className="city">{area}</div></div>
           </div>
       </div>
     )
@@ -50,9 +50,9 @@ const Container = () => {
     return <Shimmer />
   return (
     <>
-      <div class="search">
+      <div className="search">
         <input type={'search'} placeholder="Search Resturents and food" onChange={(e) => (setSearchText(e.target.value))}  data={restaurants} />
-        <button class="btn" onClick={clickHandler}><FaSearch /></button>
+        <button className="btn" onClick={clickHandler}><FaSearch /></button>
       </div>
 
       <div className="divider">
